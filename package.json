@@ -1,0 +1,59 @@
+{
+  "name": "pricewars",
+  "version": "1.0.0",
+  "description": "A consumer facing web application that provides real-time global pricing for every product in the world.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cp example.env .env && echo 'Add variables into .env file!",
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techdeus/pricewars.git"
+  },
+  "author": "Marlon Sullivan",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "bugs": {
+    "url": "https://github.com/techdeus/pricewars/issues"
+  },
+  "homepage": "https://github.com/techdeus/pricewars#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression-webpack-plugin": "^2.0.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.7",
+    "path": "^0.12.7",
+    "pm2": "^3.2.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.5.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

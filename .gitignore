@@ -23,6 +23,10 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# Compiled Dirs (http://nodejs.org/api/addons.html)
+build/
+dist/
+
 # Bower dependency directory (https://bower.io/)
 bower_components
 
@@ -59,3 +63,9 @@ typings/
 
 # next.js build output
 .next
+
+# Floobits
+.floo
+.floobit
+.floo
+.flooignore

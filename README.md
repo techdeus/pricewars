@@ -1,1 +1,1 @@
-# pricewars
+# PRICEWARS
