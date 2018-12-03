@@ -20,16 +20,16 @@ Once the project moves into development, the press release can be used as a touc
   > PRICEWARS "Never Pay More than the Lowest..."
 
 ## Sub-Heading ##
-  > Price conscious consumers who are looking to get the best deal possible - the lowest price available - on all purchases; from everyday to big one off product purchases.
+  > Price conscious consumers who are looking to get the best deal possible - the lowest price available - on their purchases; from everyday to big one offs.
 
 ## Summary ##
-  > Pricewars is a web-application for consumers looking to get the best deal possible. Way too many times, consumers are misled into thinking they are getting the best deal, where if they had all the information at their fingertips, they could have saved a few extra dollars.  Pricewars helps consumers save money by assisting them in making price consicious purchasing decisions. 
+  > Pricewars is a web-application for consumers looking to get the best deal possible. Way too many times, consumers are misled into thinking they are getting the best deal, where if they had all the information at their fingertips, they could save a few extra dollars.  Pricewars helps consumers save money by assisting them in making price consicious purchasing decisions. 
 
 ## Problem ##
-  > Users over rely on google, unreliable information from sellers and sketchy referrals from friends before making a purchasing decision. And those decisions typically revolve around price. Everyone wants the best deal possible, but the person who gets the best deal typically is the most informed. Pricewars seeks to empower consumers with pricing information on all products from all sellers across the globe!
+  > Users over rely on google, unreliable information from sellers and sketchy referrals from friends before making a purchasing decision. And those decisions typically revolve around price. Everyone wants the best deal possible, but the person who gets the best deal, usually is the most informed. Pricewars seeks to empower consumers with pricing information on all products, from all sellers, across the globe!
 
 ## Solution ##
-  > Pricewars is simple: type, take a picture, or scan a barcode and a pricing graph will appear that displays prices globally: Low, High, Average and more. Each price is linked to the selling retailer, giving that user the ability to make a quick purchasing decision. In addition, the user can set a 'pricewatch' on a specific product & be notified if the product's price is reduced to the user desired price.
+  > Pricewars is simple: type, take a picture, or scan a barcode and a pricing graph will appear that display's prices globally: Low, High, Average and more. Each price is linked to the selling retailer, giving that user the ability to make a quick purchasing decision. In addition, the user can set a 'pricewatch' on a specific product & be notified if the product's price is reduced to the user desired price.
 
 ## Quote from You ##
   > "Jeff Bezos once said, "Your quest for margin is my opportunity" and I say, "consumers deserve the best deal at all costs. Pricewars ensures that this is realized."
@@ -38,7 +38,7 @@ Once the project moves into development, the press release can be used as a touc
   > Pricewars is simple, search for a product and feast your eyes on the prices from every online & physical retailer in the world. Find the deal that works for YOU! Users can sign up for more personalized features.
 
 ## Customer Quote ##
-  > "I always thought Amazon or Walmart had the lowest prices on everything in the world. By using Pricewars, I found a small niche retailer selling a specfic standing desk 20% cheaper than both of them. Pricewars saves you money..."
+  > "I always thought Amazon or Walmart had the lowest prices on everything in the world. By using Pricewars, I found a small niche retailer selling a specific standing desk 20% cheaper than both of them. Pricewars saves you money..."
 
 ## Closing and Call to Action ##
   > To all consumers that are tired of wondering if they're paying way too much, go to pricewars.me, sign up and find the best deal! And remember, Never Pay More than the lowest...
