@@ -25,33 +25,21 @@ app.use((req, res, next) => {
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
+
 // route root call to index.html
 app.use('/', express.static(path.join(__dirname, '../public')));
 
+// get data
 app.get('/priceresults', (req, res) => {
-  const queryParams = {
-    'q': `name:iphone`,
-  };
-  webhoseClient.query('productFilter', queryParams)
-    .then((output) => {
-      console.log(output);
-      res.status(200).send(output);
-    })
-    .catch((error) => {
-      if (error) {
-        console.log('Couldn\'t execute Request:', error);
-      }
-    });
-});
+  sem3.products.products_field('search', `${req.query.name}`);
+  sem3.products.products_field('activeproductsonly', 1);
+  sem3.products.products_field('fields', ['price', 'listprice', 'sitedetails', 'images']);
 
-app.get('/priceresults2', (req, res) => {
-  sem3.products.products_field('search', 'iphone');
   sem3.products.get_products((err, products) => {
     if (err) {
       console.log('Couldn\'t execute Request: get_products');
     }
     res.status(200).send(products);
-    console.log(products);
   });
 });
 
@@ -59,3 +47,19 @@ app.get('/priceresults2', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is listening on PORT: ${PORT}`);
 });
+
+// Alternate API for data
+// app.get('/priceresults', (req, res) => {
+//   const queryParams = {
+//     'q': `name:${req.name}`,
+//   };
+//   webhoseClient.query('productFilter', queryParams)
+//     .then((output) => {
+//       res.status(200).send(output);
+//     })
+//     .catch((error) => {
+//       if (error) {
+//         console.log('Couldn\'t execute Request:', error);
+//       }
+//     });
+// });

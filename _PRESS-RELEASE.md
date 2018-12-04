@@ -26,7 +26,7 @@ Once the project moves into development, the press release can be used as a touc
   > Pricewars is a web-application for consumers looking to get the best deal possible. Way too many times, consumers are misled into thinking they are getting the best deal, where if they had all the information at their fingertips, they could save a few extra dollars.  Pricewars helps consumers save money by assisting them in making price consicious purchasing decisions. 
 
 ## Problem ##
-  > Users over rely on google, unreliable information from sellers and sketchy referrals from friends before making a purchasing decision. And those decisions typically revolve around price. Everyone wants the best deal possible, but the person who gets the best deal, usually is the most informed. Pricewars seeks to empower consumers with pricing information on all products, from all sellers, across the globe!
+  > Consumers over rely on google, unreliable information from sellers and sketchy referrals from friends before making a purchasing decision. And those decisions typically revolve around price. Everyone wants the best deal possible, but the person who gets the best deal, usually is the most informed. Pricewars seeks to empower consumers with pricing information on all products, from all sellers, across the globe!
 
 ## Solution ##
   > Pricewars is simple: type, take a picture, or scan a barcode and a pricing graph will appear that display's prices globally: Low, High, Average and more. Each price is linked to the selling retailer, giving that user the ability to make a quick purchasing decision. In addition, the user can set a 'pricewatch' on a specific product & be notified if the product's price is reduced to the user desired price.

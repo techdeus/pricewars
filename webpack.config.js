@@ -33,6 +33,10 @@ module.exports = {
                 }
             },
             {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=25000',
+            },
+            {
                 test: /\.css/,
                 loader: [
                     'style-loader',

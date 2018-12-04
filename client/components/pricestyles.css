@@ -1,3 +1,112 @@
-.productPrice {
-    font-size: 48px;
+.container {
+    margin: 8% auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
+
+.imageContainer {
+    display: flex;
+    margin: auto;
+    width: 150px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageHeader {
+    width: 100%;
+}
+
+.priceDisplay {
+  position: relative;
+  width: 100%;
+  text-align: center; 
+}
+
+.averageprice {
+    position: absolute;
+    top: -75px;
+    right: 350px;
+    font-size: 24px;
+    color: #FFCC17;
+}
+
+.loading  {
+    padding-top: 24px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+
+.graph {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.bestDeal {
+    font-size: 40px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.price {
+    color: white;
+    font-size: 40px;
+    display: block;
+    padding-bottom: 10px;
+    animation:blinkingText 1.5s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: whitesmoke;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: whitesmoke;    }
+}
+
+.productName {
+    color: #FFCC17;
+    font-size: 24px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.purchaseLink {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a {
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.purchaseButton {
+    display: block;
+    background-color: #66BF7F;
+    color:white;
+    padding: 14px 20px;
+    margin: auto;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+    border-radius: 15px;
+  }
+  
+  .purchaseButton:hover {
+    opacity: 0.6;
+    background-color: #66BF7F;
+  }
+
+

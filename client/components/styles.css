@@ -1,7 +1,104 @@
 body {
-    background: #1b1b1c;
+    background: radial-gradient(#f8f8f9, #003d3f);
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: block;
+    width: 500px;
+    height: 100px;
+}
+
+.nav {
+    margin: 6% auto;
+    width: 700px;
+    height: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoimage {
+    height: 150px;
+    width: 150px;
+}
+
+.logoname {
     color: white;
+    font: 400 75px/1.5 'Pacifico', Helvetica, sans-serif;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+    cursor: pointer;
 }
+
 .title {
-    font-size: 48px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    padding: 12px 12px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 36px;
+    text-align: center;
+    text-emphasis: bold;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: bold;   
+    letter-spacing: 5px;
 }
+
+form {
+    margin: 8% auto;
+    width: 600px;
+    box-shadow: 4px 4px 4px 2px #6d7170;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+.textbox {
+    padding-bottom: 35px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    padding: 12px 20px;
+    margin: auto;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+}
+
+.homeButton {
+  display: block;
+  background-color: #66BF7F;
+  color:white;
+  padding: 14px 20px;
+  margin: auto;
+  margin-left: auto;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  font-size: 24px;
+  border-radius: 15px;
+}
+
+.homeButton:hover {
+  opacity: 0.6;
+  background-color: #66BF7F;
+}
+
+.container {
+  padding: 20px;
+}
+
