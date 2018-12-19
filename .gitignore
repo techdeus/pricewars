@@ -26,6 +26,8 @@ coverage
 # Compiled Dirs (http://nodejs.org/api/addons.html)
 build/
 dist/
+public/pricewarsbundle.js
+public/pricewarsbundle.js.gz
 
 # Bower dependency directory (https://bower.io/)
 bower_components
