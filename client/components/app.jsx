@@ -56,7 +56,7 @@ export default class App extends Component {
             />
           </div>
           <div>
-            <button class={styles.homeButton} type="button" onClick={this.handleSubmit}>Find the Lowest Price</button>
+            <button className={styles.homeButton} type="button" onClick={this.handleSubmit}>Find the Lowest Price</button>
           </div>
         </form>
       </div>
