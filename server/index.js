@@ -29,6 +29,11 @@ app.use((req, res, next) => {
 // route root call to index.html
 app.use('/', express.static(path.join(__dirname, '../public')));
 
+// Handles all requests that don't match the ones above
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
+
 // get data
 app.get('/priceresults', (req, res) => {
   sem3.products.products_field('search', `${req.query.name}`);

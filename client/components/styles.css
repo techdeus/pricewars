@@ -17,7 +17,7 @@ nav {
     margin: 6% auto;
     width: 700px;
     height: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

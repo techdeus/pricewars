@@ -23,7 +23,7 @@ export default class PriceResults extends Component {
   }
 
   componentDidMount() {
-    const { searchTerm } = this.props;
+    const { searchTerm } = this.props.location.state;
     this.fetchPrices(searchTerm);
   }
 
@@ -58,7 +58,7 @@ export default class PriceResults extends Component {
     const averagePrice = priceResults[0];
     const lowObj = priceResults[2];
     const highObj = priceResults[1];
-    const { searchTerm } = this.props;
+    const { searchTerm } = this.props.location.state;
     const tooltipStyle = {
       display: hover ? 'block' : 'none',
     };
